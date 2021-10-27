@@ -15,4 +15,11 @@ The image above shows the application interface where the user enters the condit
 
 * Image Capture: Performs an image capture on the ProSpera camera and presents the image on the user's machine.
 * Load Capture: Performs a series of image captures on the ProSpera camera, according to the number of pictures inputted by the user.
+* Zoom Capture: Performs five image captures at camera zoom positions between 390 and 1700 zoom units in intervals of 100 units. 
+* Reboot: Performs a system reboot of the ProSpera camera.
+* Zoom Change: Changes the position of the zoom on the ProSpera camera between 390 and 1700 zoom units and checks if the actual zoom position matches the set value.
+* Hardware Button: Checks state of a button on the ProSpera camera to determine if button has been pressed.
+* Wi-Fi Board: A file is sent to the ProSpera camera via SSH and connectivity statistics throughout the transfer are presented.
+
+Images that are captured by the camera are saved onto the user's Desktop into a directory called *test_imgs*. Furthermore, test status, image file properties, and test conditions are saved in text files corresponding to the test performed within the *statistics* directory on the user's Desktop.
 

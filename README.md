@@ -6,11 +6,12 @@ to a moving pivot and directed towards the section of the field to capture image
 of any bugs found in the devices. The Python script would connect to the ProSpera camera via a SSH (Secure Shell) connection and execute commands to control the camera from a Linux terminal, as the camera could connect to a local network using Wi-Fi. 
 The Python packages **Tkinter**, **nmap**, and **Paramiko** are used to develop the script. **Tkinter** was used to design a simple and organized UI. **nmap** was used interface with the Nmap network discovery software tool to query the local network of the user's machine 
 for the IP address of the ProSpera camera by looking for a corresponding MAC address that the user provides. Finally, *Paramiko* is used to provided the framework for establishing SSH connections and communicating with a remote host, simplifying the usage 
-of the SSHv2.0 protocol from the script.
+of the SSHv2.0 protocol from the script. The Python script may be found in the *source* directory.
 
-** PLEASE NOTE THAT THIS REPOSITORY DOES NOT INCLUDE THE SSH KEYS USED TO AUTHENTICATE ACCESS TO THE PROSPERA CAMERA. THIS REPOSITORY DEMONSTRATES THE CODE WRITTEN FOR THIS PROJECT. **
+**Please note that this repository does not include the SSH keys used to authenticate access to the ProSpera camera. This repository demonstrates the code written for this project.**
 
-I also converted the Python script into a file can be run as an Windows executable application to avoid installing a Python interpreter on a user's machine, using the Python tool PyInstaller. 
+I also converted the Python script into a file can be run as an Windows executable application to avoid installing a Python interpreter on a user's machine, using the Python tool PyInstaller. The executable for this application may be found in the */Application/ProSperaTest*
+directory.
 
 ![app_interface](https://user-images.githubusercontent.com/43174428/139049034-d3303983-6c8d-41ef-9b84-a99ff17cad67.png)
 

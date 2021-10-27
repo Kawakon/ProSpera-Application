@@ -1,0 +1,5 @@
+# ignore all .pem files (SSH Keys)
+*.pem
+
+# ignore /Application/ProSperaTest/build/ directories
+**/Application/ProSperaTest/build

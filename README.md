@@ -21,5 +21,7 @@ The image above shows the application interface where the user enters the condit
 * Hardware Button: Checks state of a button on the ProSpera camera to determine if button has been pressed.
 * Wi-Fi Board: A file is sent to the ProSpera camera via SSH and connectivity statistics throughout the transfer are presented.
 
-Images that are captured by the camera are saved onto the user's Desktop into a directory called *test_imgs*. Furthermore, test status, image file properties, and test conditions are saved in text files corresponding to the test performed within the *statistics* directory on the user's Desktop.
+![test_img](https://user-images.githubusercontent.com/43174428/139048888-5d9f7aec-ae60-4d17-9539-60b85b782506.jpeg)
+
+Images that are captured by the camera are saved onto the user's Desktop into a directory called *test_imgs*. An example of an image captured by the ProSpera camera is presented above, where the camera is set to a position of 390 units. Furthermore, test status, image file properties, and test conditions are saved in text files corresponding to the test performed within the *statistics* directory on the user's Desktop.
 

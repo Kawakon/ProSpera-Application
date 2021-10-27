@@ -4,6 +4,7 @@ Python application to test ProSpera camera
 In this repository, I have developed a Python script to test an Linux-based embedded camera device, called the ProSpera Camera, that is used to monitor the growth of crops. The ProSpera camera would be fastened 
 to a moving pivot and directed towards the section of the field to capture images of the plants growing on the crop field. The purpose of testing the ProSpera camera was to verify the camera features and identify and compile a list 
 of any bugs found in the devices. The Python script would connect to the ProSpera camera via a SSH (Secure Shell) connection and execute commands to control the camera from a Linux terminal, as the camera could connect to a local network using Wi-Fi. 
+
 The Python packages **Tkinter**, **nmap**, and **Paramiko** are used to develop the script. **Tkinter** was used to design a simple and organized UI. **nmap** was used interface with the Nmap network discovery software tool to query the local network of the user's machine 
 for the IP address of the ProSpera camera by looking for a corresponding MAC address that the user provides. Finally, *Paramiko* is used to provided the framework for establishing SSH connections and communicating with a remote host, simplifying the usage 
 of the SSHv2.0 protocol from the script. The Python script may be found in the *source* directory.
